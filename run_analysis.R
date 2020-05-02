@@ -82,4 +82,5 @@ tidy_dataset = df_subset_Mean_std_renamed%>%
 
 write.table(tidy_dataset, "tidyData.txt", row.names = F, dec = ".", col.names = T)
 
+colnames(tidy_dataset)# For the CodeBook 
 
