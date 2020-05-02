@@ -96,7 +96,8 @@ ID of each subject associated with the X measurements data and Y activity data
 ## Modifications : 
 
 1. Merging train and test datasets
-2. Changing column names 
-3. Attribution of activity labels to activities of test data
-4. Subsetting data by keeping std and mean columns
+2. Subsetting data by keeping std and mean columns
+3. Changing column names - Measurements modified to be more understandable (on abreviations) of the subseted data : 
+For exemple : "timeBodyGyroscope-Standard_deviation-Z" was "timeBodyBodyGyro-std()-Z"
+4. Attribution of activity labels to activities of test data
 5. Tidying data by calculation of the mean by measurements for each subject IDs and activity labels
